@@ -1,0 +1,38 @@
+
+# ============================================================
+# HR WORKFORCE ANALYTICS - GIT IGNORE
+# Purpose: Exclude unnecessary and sensitive files from Git.
+# ============================================================
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Pytest cache
+.pytest_cache/
+
+# PyCharm project settings
+.idea/
+
+# Environment variables and passwords
+.env
+.env.*
+!.env.example
+
+# Streamlit database credentials
+.streamlit/secrets.toml
+
+# macOS system files
+.DS_Store
+
+# Log files
+*.log
+
+
+# Additional credential protection
+secrets.toml
+.streamlit_backup

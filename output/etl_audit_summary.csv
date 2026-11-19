@@ -1,0 +1,5 @@
+dataset,rows_extracted,rows_rejected,rows_transformed,rows_loaded
+departments,20,0,20,20
+employees,1100,252,848,848
+attendance,15000,6635,8241,8241
+employee_metrics,0,0,848,848
